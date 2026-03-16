@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f6f0; /* Ivory */
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #556b2f; /* Olive Green */
+  color: white;
+}
+
+header h1 {
+  font-family: 'Georgia', serif;
+  font-size: 2.5rem;
+}
+
+.name {
+    font-size: 70px;
+    line-height: 70px;
+}
+
+
+h2 {
+    font-size: 26px;
+    line-height: 26px;
+}
+
+main {
+  padding: 2rem;
+}
+
+.gift-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.gift-card {
+  background-color: white;
+  border: 2px solid #e8dada; /* Dusty Pink */
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.gift-card:hover {
+  transform: scale(1.03);
+}
+
+.gift-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.price {
+  color: #556b2f;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #e8dada; /* Dusty Pink */
+  color: #333;
+}
